@@ -107,6 +107,10 @@ header{
     border-radius: 100%;
     margin: 1vh;      
 }
+.imgGen1:hover{
+    transition: 1s ;
+    transform: scale(1.2);
+}
 .txtGen1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -137,6 +141,10 @@ header{
     border-radius: 100%;
     margin: 1vh;       
 }
+.imgGen2:hover{
+    transition: 1s ;
+    transform: scale(1.2);
+}
 .txtGen2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -166,6 +174,11 @@ header{
     height: 22vh;
     border-radius: 100%;
     margin: 1vh;          
+}
+
+.imgGen3:hover{
+    transition: 1s ;
+    transform: scale(1.2);
 }
 .txtGen3{
     font-family: 'Raleway', sans-serif;
