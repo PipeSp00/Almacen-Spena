@@ -1,0 +1,727 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  
+    
+}
+a{
+    color:rgb(255, 255, 255)
+}
+
+
+    
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 100px;    
+    
+    
+    
+    
+}
+nav{
+    grid-area: navegador;
+    background-color: #DEA057;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    
+
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+    padding: 40px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    
+  }
+  nav ul li:hover{
+      background-color: #c47720;
+      transition: 1s;
+  }
+  .botonComprarAhora:hover{
+    background-color: #865305;
+    transition: 1s ;
+    transform: scale(1.1);
+}
+
+
+
+header{
+    background-color: #DEA057;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainIndex{
+    background-image: url("../multimedia/1496920173_752930_1496920303_noticia_normal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    background-color: red;
+    grid-area: main;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.botonComprarAhora{
+    background-color: #f18407;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    top: 150px;
+
+}
+.botonComprarAhoraTxt{
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+
+}
+.section1{
+    background-color: rgb(250, 231, 196);
+    grid-area: section1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgGen1{
+    width: 22vh;
+    height: 22vh;
+    border-radius: 100%;
+    margin: 1vh;      
+}
+.txtGen1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 2vh;
+}
+
+.titGen1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: #DEA057;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.section2{
+    background-color: rgb(250, 231, 196);
+    grid-area: section2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imgGen2{
+    width: 22vh;
+    height: 22vh;
+    border-radius: 100%;
+    margin: 1vh;       
+}
+.txtGen2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 2vh;
+}
+
+.titGen2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: #DEA057;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.section3{
+    background-color: rgb(250, 231, 196);
+    grid-area: section3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imgGen3{
+    width: 22vh;
+    height: 22vh;
+    border-radius: 100%;
+    margin: 1vh;          
+}
+.txtGen3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 2vh;
+}
+
+.titGen3{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: #DEA057;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.section4{
+    background-color: rgb(250, 231, 196);
+    grid-area: section4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    height: 80%;
+    width: 80%;
+    border-radius: 5vh;
+    margin-top: 2vh;
+}
+.mapaTxt { 
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 2vh;
+    color: #DEA057;
+    font-weight: bold;
+    font-size:x-large;
+
+}
+
+footer{
+    background-color: rgb(250, 231, 196);
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+.red {
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    }
+
+.footerTxt {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 1vh
+
+}
+
+ 
+.contenedorIndex{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador navegador"
+    "main main main"
+    "section1 section2 section3" 
+    "section4 section4 section4"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 15vh 90vh 50vh 60vh 9vh;
+    
+    
+}
+
+
+        
+    
+    
+
+
+
+/* INICIO CSS DE HTML NOSOTROS */
+
+
+
+
+
+
+
+
+
+.contenedorNosotros{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador navegador"
+    "mainNos mainNos section1nos"
+
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 15vh 77vh 8vh;
+    
+}
+.mainNosotros{
+    background-color: rgb(250, 231, 196);
+    grid-area: mainNos;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.nosotrosImg {
+    border-radius: 20px;
+  
+}
+.section1Nosotros{
+    grid-area: section1nos;
+    background-color:rgb(250, 231, 196); 
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    
+}
+.nosotrosTit{
+    margin: 10vh ;
+    font-family: 'Raleway', sans-serif;
+    
+    margin-right: 10vh;
+    color: #DEA057;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+.nosotrosTxt{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-right: 10vh;
+    color: #DEA057;
+    font-weight: bold;
+ 
+
+}
+
+
+
+
+
+
+/* INICIO CSS  DE HTML TIENDA */
+
+
+
+
+
+body {
+  background-color:rgb(250, 231, 216);
+}
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:5vh auto;
+  width:60%;
+  flex-direction:row;
+  
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font-family: 'Raleway', sans-serif;
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid #DEA057;
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+  
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:#DEA057;
+  color:white;
+  border:none;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+}
+
+
+.contenedorTienda{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador navegador"
+    "mainTienda mainTienda mainTienda"
+    "section1tienda section1tienda section1tienda"
+    "section2tienda section2tienda section2tienda"
+    "section3tienda section3tienda section3tienda"
+
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 15vh 15vh 50vh 50vh 50vh 8vh;
+}
+    .mainTienda {
+        grid-area: mainTienda;
+        background:rgb(250, 231, 216) ; 
+    }
+
+        
+    .section1Tienda
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(250, 231, 216) ;
+            grid-area: section1tienda;
+        }
+    .TiendaDiv{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10vh;
+        margin-left: 10vh;
+    
+    
+    }
+    .TiendaImg{
+        position: relative;
+        top: 3vh;
+        width: 30vh;
+        height: 30vh;
+        border-radius: 100%;
+
+            
+            
+    }
+    .TiendaImg:hover{
+        transition: 1s ;
+        transform: scale(1.2);
+    }
+    .TiendaTxt{
+    
+        color: #DEA057;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+    }
+
+    .section2Tienda
+        {
+            display: flex;
+            align-items: center;
+            background-color: rgb(250, 231, 216) ;
+            grid-area: section2tienda;
+            justify-content: center;
+            
+        }
+
+
+    .section3Tienda
+        {
+            display: flex;
+            align-items: center;
+            background-color: rgb(250, 231, 216) ;
+            grid-area: section3tienda;
+            justify-content: center;
+            
+        }
+
+
+
+
+
+/*CSS PARA HTML CONTACTO*/
+
+
+
+
+
+.contenedorContacto{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador navegador"
+    "maincontacto main section1nos"
+
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 15vh 77vh 8vh;
+    
+}
+.mainContacto
+{
+    grid-area: maincontacto;
+    background-color:rgb(250, 231, 196);
+}
+legend{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: #DEA057;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: #DEA057;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.boton
+{    width: 100vh;
+    margin-top: 5%;
+    height: 10vh;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #34495e;
+}
+.cuadro {
+    width:70vh;
+    height:5vh;
+    background-color: #DEA057;
+    
+}
+
+.cuadro1 {
+    width:70vh;
+    height:5vh;
+    position: relative;
+    left: 2.5vh;
+    background-color: #DEA057;
+} 
+form
+{
+    position: relative;
+    left: 50vh;
+    top:10vh
+}
+
+
+
+/*CSS RECETAS*/
+    
+
+
+
+.contenedorRecetas{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador navegador"
+    "main main section1res"
+    "main main section1res"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 15vh 23vh 23vh 23vh 8vh; 
+
+}
+.ResImg
+{
+    width: 80vh;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) 
+{
+    .contenedorIndex {
+        display: grid;
+        height: 100vh;
+        
+        grid-template-areas: "header navegador"
+        "main main"
+        "section1 section1"
+        "section2 section2"
+        "section3 section3"
+        "section4 section4"
+        "footer footer";
+        grid-template-columns: 50% 50%;
+        grid-template-rows:15vh 90vh 50vh 50vh 50vh 50vh 9vh;
+        
+        
+    }
+    nav ul {
+        position: relative;
+        top:30%
+    }
+    nav ul li {
+        padding: 10px;
+        font-size: 80%;
+        
+
+    }
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+  
+.contenedorNosotros{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador"
+    "mainNos mainNos"
+    "section1nos section1nos"
+
+    "footer  footer";
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 15vh 33vh 55vh 8vh;
+    
+}
+.nosotrosImg {
+    border-radius: 10px;
+
+    height: 100%;
+    width:100%;
+  
+}
+.nosotrosTit{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 70%;
+    margin: 5%;
+    text-align: center;
+    color: #DEA057;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+.nosotrosTxt{
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+    text-align: center;
+     font-size: 90%;
+    color: #DEA057;
+    font-weight: bold;
+}
+
+.contenedorTienda{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador"
+    "mainTienda mainTienda"
+    "section1tienda section1tienda"
+    "section2tienda section2tienda"
+    "section3tienda section3tienda"
+
+    "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15vh 15vh 30vh 30vh 30vh 8vh;
+}
+
+.TiendaImg{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+ 
+
+        
+        
+}
+.TiendaDiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedorRecetas{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header  navegador"
+    "main main"
+    "section1res section1res"
+    "footer footer ";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15vh 23vh 23vh 8vh; 
+
+}
+.ResImg
+{
+    width: 80vh;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.contenedorContacto{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header  navegador"
+    "maincontacto maincontacto "
+
+    "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15vh 77vh 8vh;
+    
+}
+legend{
+    text-align: center;
+}
+form { 
+    position: relative;
+    left:0vh;
+    top:0vh;
+    width: 90%;
+    margin: 5%;
+}
+.boton
+{    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #34495e;
+}
+.cuadro {
+    width:90%;
+    height:5vh;
+    background-color: #DEA057;
+    margin: 5%;
+    
+}
+
+.cuadro1 {
+    width:90%;
+    height:5vh;
+    position: relative;
+    left: 0;
+    background-color: #DEA057;
+    margin: 5%;
+} 
+}
