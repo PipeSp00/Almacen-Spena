@@ -73,16 +73,21 @@ nav{
 
 
 .mainIndex{
-    background-image: url("../multimedia/1496920173_752930_1496920303_noticia_normal.jpg");
+    /*background-image: url("../multimedia/1496920173_752930_1496920303_noticia_normal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-   
+   */
+    
     background-color: red;
     grid-area: main;
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
+}
+.carruselImg {
+    width: 3fr ;
+    height: 90vh;
 }
 .botonComprarAhora{
     background-color: #f18407;
