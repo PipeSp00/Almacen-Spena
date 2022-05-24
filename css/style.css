@@ -11,42 +11,47 @@ a{
     color:rgb(255, 255, 255)
 }
 
-
     
 
 .logo{
     width: 75px;
     height: 75px;
     margin: 10px;
-    border-radius: 100px;    
+    border-radius: 100%;
+        
     
     
     
     
 }
+
 nav{
     grid-area: navegador;
     background-color: #DEA057;
 }
 
-nav ul{
+.navList{
     display: flex;
     justify-content: flex-end;
-    
-
-    
+    height: 15vh;
+    align-items: center;
+    align-content: center;    
 }
 
 
-nav ul li{
+
+.item{
     list-style-type: none;
-    padding: 40px;
+    
+    height: 15vh;
+    padding: 6vh;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    font-size: 120%;
+    font-size: 140%;
+    
     
   }
-  nav ul li:hover{
+  .item:hover{
       background-color: #c47720;
       transition: 1s;
   }
@@ -58,11 +63,12 @@ nav ul li{
 
 
 
-header{
+.header{
     background-color: #DEA057;
     grid-area: header;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -219,7 +225,7 @@ header{
 
 }
 
-footer{
+.footer{
     background-color: rgb(250, 231, 196);
     grid-area: footer;
     display: flex;
@@ -460,7 +466,7 @@ body {
 
 
 
-
+/*
 
 .contenedorContacto{
     display: grid;
@@ -519,12 +525,29 @@ label {
     background-color: #DEA057;
 } 
 form
-{
+
     position: relative;
     left: 50vh;
     top:10vh
 }
 
+
+*/
+
+
+.navItemLc {
+    margin: 1%;
+    font-family: 'Raleway', sans-serif ;
+    font-weight: bold;
+    font-size:x-large;
+    border-radius: 10%;
+    
+
+}
+.navItemLc:hover{
+    background-color: #c47720;
+    transition: 1s;
+}
 
 
 /*CSS RECETAS*/
@@ -691,7 +714,7 @@ form
     height: 100%;
     border-radius: 10%;
 }
-
+ /*
 .contenedorContacto{
     display: grid;
     height: 100vh;
@@ -737,4 +760,3 @@ form {
     background-color: #DEA057;
     margin: 5%;
 } 
-}
