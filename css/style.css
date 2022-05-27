@@ -7,67 +7,17 @@
   
     
 }
-a{
-    color:rgb(255, 255, 255)
-}
 
 
 
-.logo{
-    width: 75px;
-    height: 75px;
-    margin : 50px;
-    border-radius:100%;
-        
-    
-    
-    
-    
-}
-
-nav{
-    grid-area: navegador;
-    background-color: #DEA057;
-    justify-items: right;
-
-}
-
-.navList{
-    display: flex;
-    justify-content: space-around;
-    
-    height: 15vh;
-    
-    
-
-    text-decoration: none;   
-    
-}
 
 
 
-.item{
-    list-style-type: none;
-    padding-top: 5vh;
-    height: 15vh;
-    
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    font-size:large;
-    
-    
+/* CSS GENERAL 5 HTML*/ 
+
+body {
+    background-color:rgb(250, 231, 216);
   }
-  .item:hover{
-      background-color: #c47720;
-      transition: 1s;
-  }
-  .botonComprarAhora:hover{
-    background-color: #865305;
-    transition: 1s ;
-    transform: scale(1.1);
-}
-
-
 
 .header{
     background-color: #DEA057;
@@ -78,12 +28,76 @@ nav{
 }
 
 
-.mainIndex{
-    /*background-image: url("../multimedia/1496920173_752930_1496920303_noticia_normal.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-   */
+.logo{
+    width: 75px;
+    height: 75px;
+    margin : 50px;
+    border-radius:100%;    
+}
+
+nav{
+    grid-area: navegador;
+    background-color: #DEA057;
+    justify-items: right;
+}
+
+.navList{
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    text-decoration: none;   
+}
+
+/*item de lista nav*/
+
+.item{
+    list-style-type: none;
+    padding-top: 5vh;
+    height: 15vh;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size:large;
+    text-align: center;
+
+}
+.item:hover{
+      background-color: #c47720;
+      transition: 1s;
+}
+
+a{
+        color:rgb(255, 255, 255)
+} 
+
+.footer{
+    background-color: rgb(250, 231, 196);
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
     
+    align-items: center;
+    
+}
+.red {
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    }
+
+.footerTxt {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 1vh
+
+}
+
+
+
+/*index css*/
+
+.mainIndex{
     background-color: rgb(250, 231, 196);
     grid-area: main;
     display: flex;
@@ -91,6 +105,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
 .carruselImg {
     width: 100%;
     max-width:100%;
@@ -98,6 +113,8 @@ nav{
     height: 100vh;
     
 }
+
+
 .botonComprarAhora{
     background-color: #f18407;
     width: fit-content;
@@ -118,6 +135,14 @@ nav{
     width: 27vw;
 
 }
+
+.botonComprarAhora:hover{
+    background-color: #865305;
+    transition: 1s ;
+    transform: scale(1.1);  
+    }
+
+/*section1 section2 section3 = Fotos + imagenes principales */
 .section1{
     background-color: rgb(250, 231, 196);
     grid-area: section1;
@@ -125,16 +150,19 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+
 .imgGen1{
     width: 22vh;
     height: 22vh;
     border-radius: 100%;
     margin: 1vh;      
 }
+
 .imgGen1:hover{
     transition: 1s ;
     transform: scale(1.2);
 }
+
 .txtGen1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -233,6 +261,7 @@ nav{
     border-radius: 5vh;
     margin-top: 2vh;
 }
+
 .mapaTxt { 
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -243,30 +272,6 @@ nav{
 
 }
 
-.footer{
-    background-color: rgb(250, 231, 196);
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    
-}
-.red {
-    width: 4vh;
-    height: 4vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    }
-
-.footerTxt {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 1vh
-
-}
-
- 
 .contenedorIndex{
     display: grid;
     height: 100vh;
@@ -277,78 +282,51 @@ nav{
     "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 15vh 90vh 50vh 60vh 9vh;
-    
-    
 }
 
 
-        
-    
-    
+
+/*Nosotros css*/
 
 
 
-/* INICIO CSS DE HTML NOSOTROS */
-
-
-
-
-
-
-
-
-
-.contenedorNosotros{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador navegador"
-    "mainNos mainNos section1nos"
-
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 15vh 77vh 8vh;
-    
-}
 .mainNosotros{
     background-color: rgb(250, 231, 196);
     grid-area: mainNos;
     display: flex;
-    
     align-items: center;
     justify-content: space-around;
 }
+
 .nosotrosImg {
     border-radius: 20px;
-  
 }
+
 .section1Nosotros{
     grid-area: section1nos;
     background-color:rgb(250, 231, 196); 
     display: flex;
     flex-direction: column;
-    
     align-content: center;
-    
 }
+
 .nosotrosTit{
     margin: 10vh ;
     font-family: 'Raleway', sans-serif;
-    
     margin-right: 10vh;
     color: #DEA057;
     font-weight: bold;
     font-size: x-large;
-    
 }
+
 .nosotrosTxt{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-right: 10vh;
     color: #DEA057;
     font-weight: bold;
- 
-
 }
+
 .carruselImg2 {
     width: 100%;
     max-width:10;
@@ -357,21 +335,19 @@ nav{
     padding: 10%;
 }
 
-
-
-
-
-
-/* INICIO CSS  DE HTML TIENDA */
-
-
-
-
-
-body {
-  background-color:rgb(250, 231, 216);
+.contenedorNosotros{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador navegador"
+    "mainNos mainNos section1nos"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 15vh 77vh 8vh;
 }
 
+
+
+/*Tienda css*/
 
 
 
@@ -383,74 +359,64 @@ body {
     "section1tienda section1tienda section1tienda"
     "section2tienda section2tienda section2tienda"
     "section3tienda section3tienda section3tienda"
-
     "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 15vh 15vh 50vh 50vh 50vh 8vh;
 }
-    .mainTienda {
+
+.mainTienda {
         grid-area: mainTienda;
         background:rgb(250, 231, 216) ; 
-    }
+}
 
-        
-    .section1Tienda
-        {
+.section1Tienda{
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: rgb(250, 231, 216) ;
             grid-area: section1tienda;
-        }
-    .TiendaDiv{
+}
+
+.TiendaDiv{
         display: flex;
         flex-direction: column;
         margin-right: 10vh;
         margin-left: 10vh;
-    
-    
-    }
-    .TiendaImg{
+}
+.TiendaImg{
         position: relative;
         top: 3vh;
         width: 30vh;
         height: 30vh;
         border-radius: 100%;
+}
 
-            
-            
-    }
-    .TiendaImg:hover{
+.TiendaImg:hover{
         transition: 1s ;
         transform: scale(1.2);
-    }
-    .TiendaTxt{
+}
+
+.TiendaTxt{
     
         color: #DEA057;
         font-family: 'Raleway', sans-serif;
         text-align: center;
-    }
+}
 
-    .section2Tienda
-        {
+.section2Tienda{
             display: flex;
             align-items: center;
             background-color: rgb(250, 231, 216) ;
             grid-area: section2tienda;
             justify-content: center;
-            
-        }
-
-
-    .section3Tienda
-        {
+}
+.section3Tienda{
             display: flex;
             align-items: center;
             background-color: rgb(250, 231, 216) ;
             grid-area: section3tienda;
             justify-content: center;
-            
-        }
+}
 
 .searchBar {
 
@@ -458,6 +424,7 @@ body {
     width: 40%;
     margin-left: 30%;
 }
+
 .searchButton {
     position: absolute;
     left: 70%
@@ -465,7 +432,7 @@ body {
 
 
 
-/*CSS PARA HTML CONTACTO*/
+/*Tienda css comentado por maqueteado con bootsrap*/
 
 
 
@@ -537,6 +504,7 @@ form
 
 */
 
+/*Adecuacion maquetado html contacto con bootstrap*/
 
 .navItemLc {
     margin: 1%;
