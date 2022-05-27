@@ -39,6 +39,7 @@ nav{
     align-items: center;
     align-content: center; 
     text-decoration: none;   
+    
 }
 
 
@@ -47,10 +48,10 @@ nav{
     list-style-type: none;
     
     height: 15vh;
-    padding: 6vh;
+    padding: 6%;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    font-size: 140%;
+    font-size: 100%;
     
     
   }
@@ -89,8 +90,8 @@ nav{
     justify-content: center;
 }
 .carruselImg {
-    width: 90rem;
-    height: 90vh;
+    width: 100%;
+    height: 100%;
 }
 .botonComprarAhora{
     background-color: #f18407;
@@ -361,38 +362,7 @@ body {
   background-color:rgb(250, 231, 216);
 }
 
-.field {
-  display:flex;
-  position:realtive;
-  margin:5vh auto;
-  width:60%;
-  flex-direction:row;
-  
-}
 
-.field>input[type=text],
-.field>button {
-  display:block;
-  font-family: 'Raleway', sans-serif;
-}
-
-.field>input[type=text] {
-  flex:1;
-  padding:0.6em;
-  border:0.2em solid #DEA057;
-  border-top-left-radius: 2vh;
-  border-bottom-left-radius: 2vh;
-  
-}
-
-.field>button {
-  padding:0.6em 0.8em;
-  background-color:#DEA057;
-  color:white;
-  border:none;
-  border-top-right-radius: 2vh;
-  border-bottom-right-radius: 2vh;
-}
 
 
 .contenedorTienda{
@@ -610,6 +580,9 @@ form
     justify-content: space-around;
 }
 
+.hamburguesa {
+    display: none;
+}
 
 
 
@@ -629,8 +602,7 @@ form
 
 
 
-
-@media screen and (max-width: 1000px) 
+@media screen and (max-width: 470px) 
 {
     .contenedorIndex {
         display: grid;
@@ -644,23 +616,47 @@ form
         "section4 section4"
         "footer footer";
         grid-template-columns: 50% 50%;
-        grid-template-rows:15vh 90vh 50vh 50vh 50vh 50vh 9vh;
+        grid-template-rows:15vh 30vh 50vh 50vh 50vh 50vh 9vh;
         
         
     }
-    nav ul {
-        position: relative;
-        top:30%
-    }
-    nav ul li {
-        padding: 10px;
-        font-size: 80%;
-        
 
+    
+    .navList {
+        display: none;
     }
+    
     header {
         display: flex;
         justify-content: flex-start;
+    }
+
+    .carruselImg {
+        width:100%;
+        height: 30vh;}
+
+    .hamburguesa {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 20%;
+    height: 15vh;
+    align-items: center;
+    align-content: center; 
+    text-decoration: none;
+    }
+    .hamburgesaBoton{
+        background-color: rgb(250, 231, 196);
+        color: black ;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .itemdrop {
+        width: 11rem;
     }
   
 .contenedorNosotros{
