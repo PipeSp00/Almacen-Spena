@@ -1,740 +1,580 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-  
-    
-}
-a{
-    color:rgb(255, 255, 255)
-}
+.section1 img, .section2 img, .section3 img {
+  width: 22vh;
+  height: 22vh;
+  border-radius: 100%;
+  margin: 1vh; }
 
+.section1 h3, .section2 h3, .section3 h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 15px;
+  color: #DEA057;
+  font-weight: bold;
+  font-size: x-large; }
 
-    
+.section1 p, .section2 p, .section3 p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 2vh; }
 
-.logo{
-    width: 75px;
-    height: 75px;
-    margin: 10px;
-    border-radius: 100px;    
-    
-    
-    
-    
-}
-nav{
-    grid-area: navegador;
-    background-color: #DEA057;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none; }
 
-nav ul{
-    display: flex;
-    justify-content: flex-end;
-    
-
-    
-}
-
-
-nav ul li{
-    list-style-type: none;
-    padding: 40px;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    font-size: 120%;
-    
-  }
-  nav ul li:hover{
-      background-color: #c47720;
-      transition: 1s;
-  }
-  .botonComprarAhora:hover{
-    background-color: #865305;
-    transition: 1s ;
-    transform: scale(1.1);
-}
-
-
-
-header{
-    background-color: #DEA057;
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-}
-
-
-.mainIndex{
-    background-image: url("../multimedia/1496920173_752930_1496920303_noticia_normal.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-    background-color: red;
-    grid-area: main;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
-.botonComprarAhora{
-    background-color: #f18407;
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
-    border-radius: 25px;
-    position: relative;
-    top: 150px;
-
-}
-.botonComprarAhoraTxt{
-
-    font-family: 'Raleway', sans-serif;
-    color: white;
-
-}
-.section1{
-    background-color: rgb(250, 231, 196);
-    grid-area: section1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.imgGen1{
-    width: 22vh;
-    height: 22vh;
-    border-radius: 100%;
-    margin: 1vh;      
-}
-.imgGen1:hover{
-    transition: 1s ;
-    transform: scale(1.2);
-}
-.txtGen1{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 2vh;
-}
-
-.titGen1{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 15px;
-    color: #DEA057;
-    font-weight: bold;
-    font-size:x-large;
-}
-
-.section2{
-    background-color: rgb(250, 231, 196);
-    grid-area: section2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.imgGen2{
-    width: 22vh;
-    height: 22vh;
-    border-radius: 100%;
-    margin: 1vh;       
-}
-.imgGen2:hover{
-    transition: 1s ;
-    transform: scale(1.2);
-}
-.txtGen2{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 2vh;
-}
-
-.titGen2{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 15px;
-    color: #DEA057;
-    font-weight: bold;
-    font-size:x-large;
-}
-
-.section3{
-    background-color: rgb(250, 231, 196);
-    grid-area: section3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.imgGen3{
-    width: 22vh;
-    height: 22vh;
-    border-radius: 100%;
-    margin: 1vh;          
-}
-
-.imgGen3:hover{
-    transition: 1s ;
-    transform: scale(1.2);
-}
-.txtGen3{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 2vh;
-}
-
-.titGen3{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 15px;
-    color: #DEA057;
-    font-weight: bold;
-    font-size:x-large;
-}
-
-.section4{
-    background-color: rgb(250, 231, 196);
-    grid-area: section4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.map {
-    height: 80%;
-    width: 80%;
-    border-radius: 5vh;
-    margin-top: 2vh;
-}
-.mapaTxt { 
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-top: 2vh;
-    color: #DEA057;
-    font-weight: bold;
-    font-size:x-large;
-
-}
-
-footer{
-    background-color: rgb(250, 231, 196);
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    
-}
-.red {
-    width: 4vh;
-    height: 4vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    }
-
-.footerTxt {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin: 1vh
-
-}
-
- 
-.contenedorIndex{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador navegador"
-    "main main main"
-    "section1 section2 section3" 
-    "section4 section4 section4"
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 15vh 90vh 50vh 60vh 9vh;
-    
-    
-}
-
-
-        
-    
-    
-
-
-
-/* INICIO CSS DE HTML NOSOTROS */
-
-
-
-
-
-
-
-
-
-.contenedorNosotros{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador navegador"
-    "mainNos mainNos section1nos"
-
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 15vh 77vh 8vh;
-    
-}
-.mainNosotros{
-    background-color: rgb(250, 231, 196);
-    grid-area: mainNos;
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-}
-.nosotrosImg {
-    border-radius: 20px;
-  
-}
-.section1Nosotros{
-    grid-area: section1nos;
-    background-color:rgb(250, 231, 196); 
-    display: flex;
-    flex-direction: column;
-    
-    align-content: center;
-    
-}
-.nosotrosTit{
-    margin: 10vh ;
-    font-family: 'Raleway', sans-serif;
-    
-    margin-right: 10vh;
-    color: #DEA057;
-    font-weight: bold;
-    font-size: x-large;
-    
-}
-.nosotrosTxt{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-right: 10vh;
-    color: #DEA057;
-    font-weight: bold;
- 
-
-}
-
-
-
-
-
-
-/* INICIO CSS  DE HTML TIENDA */
-
-
-
-
+.hamburguesa {
+  display: none; }
 
 body {
-  background-color:rgb(250, 231, 216);
-}
+  background-color: #fae7d8; }
 
-.field {
-  display:flex;
-  position:realtive;
-  margin:5vh auto;
-  width:60%;
-  flex-direction:row;
-  
-}
+.header {
+  background-color: #DEA057;
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center; }
 
-.field>input[type=text],
-.field>button {
-  display:block;
-  font-family: 'Raleway', sans-serif;
-}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 50px;
+  padding: 0;
+  border-radius: 100%; }
 
-.field>input[type=text] {
-  flex:1;
-  padding:0.6em;
-  border:0.2em solid #DEA057;
-  border-top-left-radius: 2vh;
-  border-bottom-left-radius: 2vh;
-  
-}
+nav {
+  grid-area: navegador;
+  background-color: #DEA057; }
 
-.field>button {
-  padding:0.6em 0.8em;
-  background-color:#DEA057;
-  color:white;
-  border:none;
-  border-top-right-radius: 2vh;
-  border-bottom-right-radius: 2vh;
-}
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 13vh;
+  text-decoration: none; }
 
+.item {
+  list-style-type: none;
+  padding-top: 4.5vh;
+  width: 100%;
+  height: 15vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  transition-property: background-color, transform;
+  transition-duration: 1s; }
 
-.contenedorTienda{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador navegador"
-    "mainTienda mainTienda mainTienda"
-    "section1tienda section1tienda section1tienda"
-    "section2tienda section2tienda section2tienda"
-    "section3tienda section3tienda section3tienda"
+.item:hover {
+  background-color: #c47720; }
+  .item:hover a {
+    color: black;
+    transform: scale(1.1); }
 
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 15vh 15vh 50vh 50vh 50vh 8vh;
-}
-    .mainTienda {
-        grid-area: mainTienda;
-        background:rgb(250, 231, 216) ; 
-    }
+a {
+  transition-property: color, transform;
+  transition-duration: 1s;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+  text-align: center;
+  color: white;
+  font-weight: bold; }
 
-        
-    .section1Tienda
-        {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: rgb(250, 231, 216) ;
-            grid-area: section1tienda;
-        }
-    .TiendaDiv{
-        display: flex;
-        flex-direction: column;
-        margin-right: 10vh;
-        margin-left: 10vh;
-    
-    
-    }
-    .TiendaImg{
-        position: relative;
-        top: 3vh;
-        width: 30vh;
-        height: 30vh;
-        border-radius: 100%;
-
-            
-            
-    }
-    .TiendaImg:hover{
-        transition: 1s ;
-        transform: scale(1.2);
-    }
-    .TiendaTxt{
-    
-        color: #DEA057;
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-    }
-
-    .section2Tienda
-        {
-            display: flex;
-            align-items: center;
-            background-color: rgb(250, 231, 216) ;
-            grid-area: section2tienda;
-            justify-content: center;
-            
-        }
-
-
-    .section3Tienda
-        {
-            display: flex;
-            align-items: center;
-            background-color: rgb(250, 231, 216) ;
-            grid-area: section3tienda;
-            justify-content: center;
-            
-        }
-
-
-
-
-
-/*CSS PARA HTML CONTACTO*/
-
-
-
-
-
-.contenedorContacto{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador navegador"
-    "maincontacto main section1nos"
-
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 15vh 77vh 8vh;
-    
-}
-.mainContacto
-{
-    grid-area: maincontacto;
-    background-color:rgb(250, 231, 196);
-}
-legend{
-    font-family: 'Raleway', sans-serif;
+.footer {
+  background-color: #fae7a9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: footer;
+  padding: 2%; }
+  .footer h6 {
+    font-family: "Raleway", sans-serif;
     text-align: center;
-    margin: 15px;
-    color: #DEA057;
-    font-weight: bold;
-    font-size:x-large;
-}
+    margin: 1vh; }
 
-label {
-    font-family: 'Raleway', sans-serif;
+.red {
+  width: 4vh;
+  height: 4vh;
+  margin: 1vh;
+  padding: 0;
+  border-radius: 0; }
+
+.mainIndex {
+  background-color: #fae7a9;
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.carruselImg {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  max-width: 100%;
+  max-height: 90vh; }
+
+.botonComprarAhora {
+  background-color: #DEA057;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 20px;
+  border-radius: 25px;
+  position: absolute;
+  top: 80%;
+  transition-property: background-color, transform;
+  transition-duration: 1s; }
+  .botonComprarAhora h2 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: medium;
     text-align: center;
-    margin: 15px;
-    color: #DEA057;
-    font-weight: bold;
-    font-size:x-large;
-}
+    width: 27vw;
+    text-decoration: none; }
 
-.boton
-{    width: 100vh;
-    margin-top: 5%;
-    height: 10vh;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    color: #34495e;
-}
-.cuadro {
-    width:70vh;
-    height:5vh;
-    background-color: #DEA057;
-    
-}
+.botonComprarAhora:hover {
+  background-color: #c47720;
+  transform: scale(1.1); }
 
-.cuadro1 {
-    width:70vh;
-    height:5vh;
-    position: relative;
-    left: 2.5vh;
-    background-color: #DEA057;
-} 
-form
-{
-    position: relative;
-    left: 50vh;
-    top:10vh
-}
+.section1 {
+  background-color: #fae7a9;
+  grid-area: section1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
+.section2 {
+  background-color: #fae7a9;
+  grid-area: section2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
+.section3 {
+  background-color: #fae7a9;
+  grid-area: section3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
-/*CSS RECETAS*/
-    
-
-
-
-.contenedorRecetas{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador navegador"
-    "main main section1res"
-    "main main section1res"
-    "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 15vh 23vh 23vh 23vh 8vh; 
-
-}
-.ResImg
-{
-    width: 80vh;
-    border-radius: 10%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1000px) 
-{
-    .contenedorIndex {
-        display: grid;
-        height: 100vh;
-        
-        grid-template-areas: "header navegador"
-        "main main"
-        "section1 section1"
-        "section2 section2"
-        "section3 section3"
-        "section4 section4"
-        "footer footer";
-        grid-template-columns: 50% 50%;
-        grid-template-rows:15vh 90vh 50vh 50vh 50vh 50vh 9vh;
-        
-        
-    }
-    nav ul {
-        position: relative;
-        top:30%
-    }
-    nav ul li {
-        padding: 10px;
-        font-size: 80%;
-        
-
-    }
-    header {
-        display: flex;
-        justify-content: flex-start;
-    }
-  
-.contenedorNosotros{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador"
-    "mainNos mainNos"
-    "section1nos section1nos"
-
-    "footer  footer";
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 15vh 33vh 55vh 8vh;
-    
-}
-.nosotrosImg {
-    border-radius: 10px;
-
-    height: 100%;
-    width:100%;
-  
-}
-.nosotrosTit{
-
-    font-family: 'Raleway', sans-serif;
-    font-size: 70%;
-    margin: 5%;
-    text-align: center;
-    color: #DEA057;
-    font-weight: bold;
+.section4 {
+  background-color: #fae7a9;
+  grid-area: section4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section4 h3 {
+    font-family: "Raleway", sans-serif;
     font-size: x-large;
-    
-}
-.nosotrosTxt{
-    font-family: 'Raleway', sans-serif;
-    margin: 5%;
     text-align: center;
-     font-size: 90%;
     color: #DEA057;
     font-weight: bold;
-}
+    margin-top: 2vh; }
 
-.contenedorTienda{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header navegador"
-    "mainTienda mainTienda"
-    "section1tienda section1tienda"
-    "section2tienda section2tienda"
-    "section3tienda section3tienda"
+.map {
+  width: 80%;
+  height: 80%;
+  margin: 2vh;
+  padding: 0;
+  border-radius: 5vh; }
 
-    "footer footer";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 15vh 15vh 30vh 30vh 30vh 8vh;
-}
+.contenedorIndex {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header navegador navegador" "main main main" "section1 section2 section3"  "section4 section4 section4" "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 12vh 90vh 50vh 60vh 9vh; }
 
-.TiendaImg{
-    width: 10vh;
-    height: 10vh;
-    border-radius: 100%;
- 
+.mainNosotros {
+  background-color: #fae7a9;
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
 
-        
-        
-}
-.TiendaDiv{
+.carruselImg2 {
+  width: 50vh;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 10%; }
+
+.section1Nosotros {
+  grid-area: section;
+  background-color: #fae7a9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section1Nosotros h2 {
+    margin: 1vh;
+    margin-right: 5vw;
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #DEA057;
+    font-weight: bold; }
+  .section1Nosotros p {
+    margin: 5vh;
+    margin-right: 5vw;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #DEA057;
+    font-weight: bold; }
+
+.contenedorNosotros {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header navegador navegador" "main main section" "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 13vh 77vh 8vh; }
+
+.mainTienda {
+  grid-area: main;
+  background-color: #fae7a9; }
+
+.section1Tienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: auto;
+  grid-area: section1;
+  background-color: #fae7a9; }
+  .section1Tienda div {
     display: flex;
     flex-direction: column;
-    margin-right: 1vh;
-    margin-left: 1vh;
+    justify-content: auto;
+    align-items: auto;
+    margin-right: 10vh;
+    margin-left: 10vh; }
+  .section1Tienda img {
+    position: relative;
+    top: 3vh;
+    width: 30vh;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    transition-duration: 1s;
+    transition-property: size, transform; }
+  .section1Tienda img:hover {
+    transition: 1s;
+    transform: scale(1.2); }
+  .section1Tienda h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #DEA057;
+    font-weight: bold; }
+
+.section2Tienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: auto;
+  grid-area: section2;
+  background-color: #fae7a9; }
+  .section2Tienda div {
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    align-items: auto;
+    margin-right: 10vh;
+    margin-left: 10vh; }
+  .section2Tienda img {
+    position: relative;
+    top: 3vh;
+    width: 30vh;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    transition-duration: 1s;
+    transition-property: size, transform; }
+  .section2Tienda img:hover {
+    transition: 1s;
+    transform: scale(1.2); }
+  .section2Tienda h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #DEA057;
+    font-weight: bold; }
+
+.section3Tienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: auto;
+  grid-area: section3;
+  background-color: #fae7a9; }
+  .section3Tienda div {
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    align-items: auto;
+    margin-right: 10vh;
+    margin-left: 10vh; }
+  .section3Tienda img {
+    position: relative;
+    top: 3vh;
+    width: 30vh;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    transition-duration: 1s;
+    transition-property: size, transform; }
+  .section3Tienda img:hover {
+    transition: 1s;
+    transform: scale(1.2); }
+  .section3Tienda h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #DEA057;
+    font-weight: bold; }
+
+.searchBar {
+  position: absolute;
+  width: 40%;
+  margin-left: 30%; }
+
+.searchButton {
+  position: absolute;
+  left: 70%;
+  margin-left: 10px; }
+
+.contenedorTienda {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header navegador navegador" "main main main" "section1 section1 section1" "section2 section2 section2" "section3 section3 section3" "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 13vh 15vh 50vh 50vh 50vh 8vh; }
+
+.mainContacto {
+  grid-area: main;
+  background-color: #fae7a9; }
+
+legend {
+  margin: 1%;
+  background-color: #DEA057;
+  font-family: "Raleway", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+
+.contenedorContacto {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header navegador navegador" "main main main"  "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 13vh 77vh 8vh; }
+
+.mainRecetas {
+  background-color: #fae7a9;
+  grid-area: main;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow: scroll; }
+
+.receta {
+  width: 20vw; }
+
+.contenedorRecetas {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header navegador navegador" "main main main"  "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 13vh 79vh 8vh; }
+
+@media screen and (max-width: 480px) {
+  footer h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: small;
+    text-align: center;
+    color: black;
+    font-weight: auto; }
+  .contenedorIndex {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador" "main main" "section1 section1" "section2 section2" "section3 section3" "section4 section4" "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15vh 30vh 60vh 60vh 60vh 50vh 9vh; }
+  .navList {
+    display: none; }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: red; }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+  .hamburguesa {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-
-}
-
-.contenedorRecetas{
+    width: 15vw;
+    height: 15vw;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    padding-right: 30%; }
+    .hamburguesa a {
+      font-family: "Raleway", sans-serif;
+      font-size: large;
+      text-align: center;
+      color: #DEA057;
+      font-weight: bold;
+      transform: scale(1.1); }
+  .hamburgesaBoton {
+    background-color: #fae7a9;
+    color: #DEA057;
+    transform: scale(1.3); }
+  .carruselImg {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 0; }
+  .botonComprarAhora {
+    display: none; }
+  .contenedorNosotros {
     display: grid;
     height: 100vh;
-    grid-template-areas: "header  navegador"
-    "main main"
-    "section1res section1res"
-    "footer footer ";
+    grid-template-areas: "header navegador" "main main" "section section" "footer footer";
     grid-template-columns: 50% 50%;
-    grid-template-rows: 15vh 23vh 23vh 8vh; 
-
-}
-.ResImg
-{
-    width: 80vh;
-    height: 100%;
-    border-radius: 10%;
-}
-
-.contenedorContacto{
+    grid-template-rows: 13vh 33vh 55vh 9vh; }
+    .contenedorNosotros p {
+      font-family: "Raleway", sans-serif;
+      font-size: small;
+      text-align: center;
+      color: #DEA057;
+      font-weight: bold; }
+  .carruselImg2 {
+    width: 100vw;
+    height: 33vh;
+    margin: 0;
+    padding: 3%;
+    border-radius: 10%; }
+  .contenedorTienda {
     display: grid;
     height: 100vh;
-    grid-template-areas: "header  navegador"
-    "maincontacto maincontacto "
-
-    "footer footer";
+    grid-template-areas: "header navegador" "main main" "section1 section1" "section2 section2" "section3 section3" "footer footer";
     grid-template-columns: 50% 50%;
-    grid-template-rows: 15vh 77vh 8vh;
-    
-}
-legend{
-    text-align: center;
-}
-form { 
-    position: relative;
-    left:0vh;
-    top:0vh;
-    width: 90%;
-    margin: 5%;
-}
-.boton
-{    width: 100%;
-    margin-top: 5%;
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    color: #34495e;
-}
-.cuadro {
-    width:90%;
-    height:5vh;
-    background-color: #DEA057;
-    margin: 5%;
-    
-}
-
-.cuadro1 {
-    width:90%;
-    height:5vh;
-    position: relative;
-    left: 0;
-    background-color: #DEA057;
-    margin: 5%;
-} 
-}
+    grid-template-rows: 15vh 15vh 30vh 30vh 30vh 8vh; }
+  .section1Tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: auto;
+    background-color: #fae7a9;
+    overflow: scroll;
+    border: 2px solid #DEA057; }
+    .section1Tienda div {
+      display: flex;
+      flex-direction: column;
+      justify-content: auto;
+      align-items: auto;
+      margin-right: 5vh;
+      margin-left: 5vh; }
+    .section1Tienda img {
+      width: 15vh;
+      height: 15vh;
+      margin: 0;
+      padding: 0;
+      border-radius: 100%; }
+    .section1Tienda h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: small;
+      text-align: center;
+      color: #DEA057;
+      font-weight: bold;
+      margin-top: 10px; }
+  .section2Tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: auto;
+    background-color: #fae7a9;
+    overflow: scroll;
+    border: 2px solid #DEA057; }
+    .section2Tienda div {
+      display: flex;
+      flex-direction: column;
+      justify-content: auto;
+      align-items: auto;
+      margin-right: 5vh;
+      margin-left: 5vh; }
+    .section2Tienda img {
+      width: 15vh;
+      height: 15vh;
+      margin: 0;
+      padding: 0;
+      border-radius: 100%; }
+    .section2Tienda h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: small;
+      text-align: center;
+      color: #DEA057;
+      font-weight: bold;
+      margin-top: 10px; }
+  .section3Tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    align-items: auto;
+    background-color: #fae7a9;
+    overflow: scroll;
+    border: 2px solid #DEA057; }
+    .section3Tienda div {
+      display: flex;
+      flex-direction: column;
+      justify-content: auto;
+      align-items: auto;
+      margin-right: 5vh;
+      margin-left: 5vh; }
+    .section3Tienda img {
+      width: 15vh;
+      height: 15vh;
+      margin: 0;
+      padding: 0;
+      border-radius: 100%; }
+    .section3Tienda h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: small;
+      text-align: center;
+      color: #DEA057;
+      font-weight: bold;
+      margin-top: 10px; }
+  .contenedorRecetas {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header navegador" "main main" "footer footer ";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15vh 77vh  8vh; }
+    .contenedorRecetas .receta {
+      width: 100%; } }
